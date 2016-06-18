@@ -1,0 +1,58 @@
+body{
+  background:#2A2E39;
+  color:#fff;
+}
+#title {
+  padding:25px 0;
+}
+.container {
+  position relative;
+  padding:25px 0;
+  z-index: 999;
+}
+p {
+   display: inline-block;
+}
+#plus-break {
+  display: inline-block;
+}
+
+
+.btn-success {
+  border-radius:30px;
+  background-color: rgba(42,46,57,0.5);
+}
+.btn {
+  border: 0;
+  
+}
+.controls {
+  margin: 5px;
+  font-size: 15px;
+}
+#timer {
+  border-radius:50%;
+  font-weight:500;
+  padding: 40px 48px 41px 48px;
+  background-color: transparent;
+  text-align: center;
+}
+
+#progress-background {
+
+  height:180px;
+  width: 180px;
+  background-color: #72e3bf;
+  
+  margin:50px auto;
+}
+#progression {
+  height:0%;
+  width: 180px;
+  background-color: #72e3bf;
+}
+
+#timeLeft{
+  margin:20px;
+}
+    

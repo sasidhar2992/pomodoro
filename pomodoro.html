@@ -1,0 +1,42 @@
+<html>
+<head>
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row ctrl">
+    <div class="col-sm-6 break">
+      <div class="title">BREAK LENGTH</div>
+      <span class="minus">-</span>
+      <span id="breakTime" class="time">5</span>
+      <span class="plus">+</span>
+    </div>
+    <div class="col-sm-6 session">
+      <div class="title">SESSION LENGTH</div>
+      <span class="minus">-</span>
+      <span id="sessionTime" class="time">25</span>
+      <span class="plus">+</span>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="timer col-sm-6 col-sm-offset-3">
+      <h3 id="whatsOn">Session</h3>
+      <div id="timeLeft"></div>
+
+      <div class="buttonContainer">
+        <button id="timerButton" class="btn btn-primary timerStart">Start</button>
+        <button id="timerReset" class="btn btn-default">Reset</button>
+      </div>
+
+    </div>
+
+  </div>
+
+
+</div>
+</body>
+</html>
